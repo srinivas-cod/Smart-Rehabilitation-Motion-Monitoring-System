@@ -23,7 +23,7 @@
  */
 
 /*
- * HUMANIZED PROCESS OVERVIEW
+ *  PROCESS OVERVIEW
  * 1. UART reader: receives newline-terminated JSON feedback from Arduino.
  * 2. QNX IPC: transfers complete feedback packets to the safety coordinator.
  * 3. Safety coordinator: validates joint angles and monitors timeout conditions.
